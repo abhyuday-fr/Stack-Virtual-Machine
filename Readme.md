@@ -2,6 +2,8 @@
 
 This is a stack based cpu simulator made in CPP. It is very basic for now but expect more user friendly, robust, fast version soon.
 
+---
+
 ### Folder Structure
 ```
 Stack-Virtual-Machine/
@@ -17,8 +19,10 @@ Stack-Virtual-Machine/
     ├── Makefile
     ├── svasm.cpp
     └── test.svasm
-  
+    
 ```
+
+---
 
 ### Usage Instructions
 
