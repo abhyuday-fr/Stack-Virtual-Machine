@@ -2,7 +2,25 @@
 
 This is a stack based cpu simulator made in CPP. It is very basic for now but expect more user friendly, robust, fast version soon.
 
-## Usage Instructions
+### Folder Structure
+```
+Stack-Virtual-Machine/
+├── Readme.md
+├── stack-vm
+│   ├── main.cpp
+│   ├── Makefile
+│   ├── stack-vm.cpp
+│   └── stack-vm.h
+└── svasm
+    ├── lexer.cpp
+    ├── lexer.h
+    ├── Makefile
+    ├── svasm.cpp
+    └── test.svasm
+  
+```
+
+### Usage Instructions
 
 * In svasm directory, execute `make` and a *svasm* exectuable will be made.
 * run `./svasm test.svasm` and a *out.bin* binary file will be made.
